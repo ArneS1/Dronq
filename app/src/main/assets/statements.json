@@ -1,0 +1,1124 @@
+{
+  "drink_statements": [
+    {
+      "id": 1,
+      "statement": "#playerAll# muss das Getränk von #playerAll# exen!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 2,
+      "statement": "Jeder trinkt einen Schluck!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 3,
+      "statement": "#playerMaleSingle# trinkt einen Shot aus dem Bauchnabel von #playerFemaleSingle# !",
+      "category_drink": "2",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 4,
+      "statement": "Schätzspiel: #playerAll# gegen #playerAll#! Wie oft kommt Mann durchschnittlich im Leben?",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "1",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 5,
+      "statement": "Antwort: 7200 Mal! 1 Schluck für den Verlierer und 1 für jeden, der denkt er kann 7200 überbieten.",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "1",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 6,
+      "statement": "Der Spieler, der als Erstes aufsteht darf 3 Schlücke trinken!",
+      "category_drink": "2",
+      "category_activity": "1",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 7,
+      "statement": "#playerSingleAll# zieh dich innerhalb von einer Minute an und wieder aus!",
+      "category_drink": "2",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 8,
+      "statement": "Trinke für jedes Kleidungsstück das du anbehalten hast einen Schluck, verteile für jedes das du ausgezogen hast einen!",
+      "category_drink": "2",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 9,
+      "statement": "#playerSober# du darfst für jedes alkoholfreie Getränk auf dem Tisch einen Schluck verteilen.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 10,
+      "statement": "#playerSober# du darfst jedem mit einem Mischgetränk irgendetwas (nicht tödliches) nachfüllen.",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 11,
+      "statement": "#playerSingleDrunk# nimmt einen Schluck in den Mund und gibt ihn #playerSingleDrunk# in den Mund.",
+      "category_drink": "3",
+      "category_activity": "1",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 12,
+      "statement": "#playerSingle# lecke am Arsch von #playerSingleFemale#. Wenn einer nicht will, darf #playerSober# dir einen Shot zusammenstellen!",
+      "category_drink": "1",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 13,
+      "statement": "Schätzspiel: #player# gegen #player#: Wann hat Micki Krause Geburtstag?",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 14,
+      "statement": "Antwort: 1970! Der Gewinner darf 3 Schlücke verteilen!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 15,
+      "statement": "Alle zeigen auf eine Person: Wer würde am ehesten bei einem Porno mitspielen? Diese Person muss zeigen was sie hat oder 3 Schlücke trinken.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "1",
+      "category_sex": "2",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 16,
+      "statement": "#player# wenn du ein Mann bist trinke 5 Schlücke, wenn nicht trinken alle anderen 5!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 17,
+      "statement": "Wenn du zufällig #playerDrunk# heißt, hast du Pech gehabt und trinkst 5 Schlücke.",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 18,
+      "statement": "Wenn du zufällig nicht #player# heißt, hast du Pech gehabt und trinkst 2 Schlücke.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 19,
+      "statement": "#player# trinkt einen Schluck! Einfach so! Du Loser... :(",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 20,
+      "statement": "Jeder küsst den Spieler links von sich oder trinkt einen Schluck",
+      "category_drink": "1",
+      "category_activity": "1",
+      "category_game": "0",
+      "category_sex": "2",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 21,
+      "statement": "#playerDrunk#'s Mund ist die Königsmische, jeder darf einen Schluck reinfüllen!",
+      "category_drink": "3",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 22,
+      "statement": "Jede Modeikone-Influencerbitch mit Adiletten darf 2 Schlücke verteilen",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 23,
+      "statement": "Für #player# ist heute Gegenteiltag. Er/Sie darf bis 24 Uhr nicht mehr die Wahrheit sagen.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 24,
+      "statement": "Gamemaster: Hast du heute schon eine Aufgabe übersprungen? Dann Ex du Penner!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 25,
+      "statement": "Jeder der ein Auto besitzt darf 1 Schluck verteilen!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 26,
+      "statement": "Wenn es von den Eltern gesponsort ist trinke selber einen!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 27,
+      "statement": "Jeder der 187 in seiner Spotify Playlist hat, trinkt 1 Vodka so wie das Vorbild GZUZ.",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 28,
+      "statement": "#player# du darfst einen Schluck an jeden Spieler verteilen, von dem du ein Geheimnis weißt.",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 29,
+      "statement": "#playerSingleMale# zeigt auf die Person mit den größten Brüsten.",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 30,
+      "statement": "#playerSingleFemale#, hat er recht? Wenn ja darf er einen Schluck verteilen, wenn nicht darfst du ihn schlagen.",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 31,
+      "statement": "#playerSingleMale# und #playerSingleFemale# müssen ihre Hände zusammenbinden. Ihr dürft ab jetzt nur noch mit der gemeinsamen Hand trinken. Nur #player# darf euch trennen.",
+      "category_drink": "1",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "2",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 32,
+      "statement": "#player# macht die nächste Mische für #playerDrunk#",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 33,
+      "statement": "#player# ist ab jetzt euer Kellner. Wenn jemand Durst hat lasst es ihn/sie wissen.",
+      "category_drink": "0",
+      "category_activity": "2",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 34,
+      "statement": "#player# such dir einen Trinkpartner bis zu dem Zeitpunkt an dem beide Getränke gleichzeitig leer sind.",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 35,
+      "statement": "Jede Basic Bitch mit Jeans und weißem Oberteil trinkt 2 Schlücke.",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 36,
+      "statement": "Jeder Kaffeejunkie trinkt 2 Schlücke um sich zu beruhigen.",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 37,
+      "statement": "Der Dj nimmt jetzt Songwünsche an!",
+      "category_drink": "0",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 38,
+      "statement": "#playerSober# wenn du heute Fahrer bist, respekt! Alle trinken auf dich!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 39,
+      "statement": "FCK AfD! Jeder der schonmal mit AfD einer Meinung war trinkt 3 Schlücke.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 40,
+      "statement": "Jeder der sich an der politschen Diskussion beteiligt hat trinkt nochmal 3. Redet wieder übers Trinken!",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 41,
+      "statement": "#player# und #player# sagen ihre Lieblings-Pornoseite, die Runde stimmt ab, welche besser ist. Der Verlierer trinkt 69 Schlücke!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 42,
+      "statement": "#player# gebe lutsch in die Whatsapp-Suche ein und lies die letzte Nachricht vor. Wenn du nicht willst trinke 3 Schlücke!",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 43,
+      "statement": "Der/Die erste der eine Unterhose auf den Tisch legt darf einen Shot verteilen!",
+      "category_drink": "2",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "2",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 44,
+      "statement": "Der/Die erste der ein Kondom auf den Tisch legt darf einen Shot verteilen!",
+      "category_drink": "2",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "2",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 45,
+      "statement": "Der/Die erste der einen BH auf den Tisch legt darf einen Shot verteilen!",
+      "category_drink": "2",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "2",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 46,
+      "statement": "Der/Die erste der einen Fuß auf den Tisch legt darf einen Shot verteilen!",
+      "category_drink": "2",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 47,
+      "statement": "#playerMale# hat nen kleinen P*nis. Alle trinken aus Mitleid!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "1",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 48,
+      "statement": "Prohibition! #player# du darfst nicht mehr trinken. #playerDrunk# übernimmt dafür. Solange bis du nicht mehr willst.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 49,
+      "statement": "#playerDrunk# und #playerDrunk# tauschen Getränke!",
+      "category_drink": "1",
+      "category_activity": "1",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 50,
+      "statement": "Alle Android-User trinken einen Schluck!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 51,
+      "statement": "Alle Apple-User trinken einen Schluck!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 52,
+      "statement": "Alle armen Studenten borgen sich einen Schluck beim Nachbarn!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 53,
+      "statement": "Alle spenden 5€ an Arnoold12@gmx.de auf Paypal. Oder trinken 3 Schlücke!",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 54,
+      "statement": "#playerSingle# gibt #playerSingle# einen Slap auf den Ass. Es muss Schallen!",
+      "category_drink": "1",
+      "category_activity": "2",
+      "category_game": "0",
+      "category_sex": "2",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 55,
+      "statement": "Der/Die geschlagene trinkt einen Schluck gegen den Schmerz!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 56,
+      "statement": "#playerDrunk# verteile so viel du willst an #playerDrunk#!",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 57,
+      "statement": "... das war nicht fair. Jetzt trinkst du selbst so viele.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 58,
+      "statement": "Kleiderkreisel! #player# und #player# tauschen ihre Oberteile!",
+      "category_drink": "0",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "2",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 59,
+      "statement": "Ching, Chang, Shot! #playerDrunk# VS #playerDrunk#!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 60,
+      "statement": "Jeder mit einem Tattoo trinkt 1 Schluck!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 61,
+      "statement": "Jeder der dieses Jahr schon Vong gesagt oder geschrieben hat trinkt 2 Strafschlücke!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 62,
+      "statement": "#player# darf mit dem Spieler mit dem gemütlichsten Platz Plätze tauschen!",
+      "category_drink": "0",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 63,
+      "statement": "Jeder der eine Kette trägt darf 1 Schluck verteilen!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 64,
+      "statement": "Der Gastgeber sei Dank! Und er darf 3 Schlücke verteilen!",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 65,
+      "statement": "Jeder der sich eigene Getränke mitgebracht hat verteilt 1 Schluck!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 66,
+      "statement": "#player# sucht sich einen Partner. Zusammen müsst ihr 5 Shots trinken. Teilt es euch selbst auf!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 67,
+      "statement": "Jeder der sich heute schon ein Getränk geschnorrt hat trinkt 1 Schluck!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 68,
+      "statement": "Jeder küsst seinen Rechten Nachbarn auf den Mund. Wer sich nicht traut trinkt einen Shot. #player# beginnt!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 69,
+      "statement": "#playerSingle# und #playerSingle# gehen in die 69er Stellung und trinken ihr Glas aus. #player# entscheidet wer Oben liegt.",
+      "category_drink": "3",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 70,
+      "statement": "Roulette! Jeder setzt reihum 0-5 Schlücke auf einen Spieler! Treffer: Verteilen, Miss: Selber trinken. #player# beginnt!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 71,
+      "statement": "#player#",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 72,
+      "statement": "Jeder liest den Schrittzähler auf seinem Handy aus, teilt durch 1000 und verteilt soviel! #player# beginnt!",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 73,
+      "statement": "Zeitreise: Mittelalter! Jeder sagt einen typischen Satz dieser Zeit oder trinkt einen Schluck! #player# beginnt!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 74,
+      "statement": "Zeitreise: 2120! Jeder sagt einen typischen Satz dieser Zeit oder trinkt einen Schluck! #player# beginnt!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 75,
+      "statement": "Zeitreise: Steinzeit! Jeder sagt einen typischen Satz dieser Zeit oder trinkt einen Schluck! #player# beginnt!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 76,
+      "statement": "Zeitreise: Renaissance! Jeder sagt einen typischen Satz dieser Zeit oder trinkt einen Schluck! #player# beginnt!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 77,
+      "statement": "Zeitreise: 1943! Jeder sagt einen typischen Satz dieser Zeit oder trinkt einen Schluck! #player# beginnt!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 78,
+      "statement": "Zeitreise: Altes Ägypten! Jeder sagt einen typischen Satz dieser Zeit oder trinkt einen Schluck! #player# beginnt!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 79,
+      "statement": "#player# nennt einen Künstler, jeder sagt einen Song von ihm oder trinkt einen Schluck",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 80,
+      "statement": "Jeder der es hasst, wenn Trinkspiele wollen das man etwas auf Facebook postet trinkt einen Schluck!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 81,
+      "statement": "Seid ihr noch nüchtern? Schande! trinkt 4 Schlücke!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 82,
+      "statement": "Jeder verteilt so viele Schlücke wie sein Vorname Konsonanten hat! #player# beginnt!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 83,
+      "statement": "#playerSingleDrunk# muss sich von #playerSingle# auf die Brust küssen lassen oder 5 Schlucke trinken.",
+      "category_drink": "3",
+      "category_activity": "2",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 84,
+      "statement": "Jeder trinkt so viel wie er/sie Vornamen hat!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 85,
+      "statement": "#player# gefällt dir dein Name in diesem Trinkspiel? Wenn nein, muss #playerDrunk# mitleiden und 2 Schlücke trinken!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 86,
+      "statement": "Jeder, der Dronc auf dem Handy hat ist ein krasser Ficker und darf 5 Schlücke verteilen :*",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 87,
+      "statement": "#playerDrunk# VS #player#: Beginnt jeweils eine Songzeile die der Gegner zuende bringen muss! Bei Versagen 2 Schlücke trinken!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 88,
+      "statement": "#playerDrunk#: sag die Schuhgröße #player#! Für jede Nummer daneben musst du 1 Schlück trinken!",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 89,
+      "statement": "Jeder Money Boy, der jetzt mehr als 10€ dabei hat, darf 2 Schlücke verteilen!",
+      "category_drink": "2",
+      "category_activity": "1",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 90,
+      "statement": "#player# muss seinen Nippel zeigen oder 8 Schlücke trinken!",
+      "category_drink": "3",
+      "category_activity": "1",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 91,
+      "statement": "Jeder der schonmal einen Blunt geraucht hat trinkt 2 Schlücke!",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 92,
+      "statement": "Alle die jünger als 21 sind trinken 2 Schlücke!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 93,
+      "statement": "Jeder der heute abend noch bereit für eine Orgie wäre trinkt einen Schluck!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 94,
+      "statement": "Alle die nicht getrunken haben sollten jetzt lieber den Raum verlassen.",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "3",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 95,
+      "statement": "#player#: flüster #player# ein Tier ins Ohr, welches er/sie nachmachen soll. Wer rausfindet welches, darf jemanden exen lassen!",
+      "category_drink": "3",
+      "category_activity": "3",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 96,
+      "statement": "#player#: verteile so viele Schlücke wie du Herr der Ringe Charaktere kennst. Sind es unter 3 trinke selber 3.",
+      "category_drink": "3",
+      "category_activity": "3",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 97,
+      "statement": "#player#: verteile so viele Schlücke wie du Money Boy Songs kennst. Sind es unter 3 trinke selber 3.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 98,
+      "statement": "#player#: verteile so viele Schlücke wie du Sexstellungen kennst. Sind es unter 3 trinke selber 3.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "1",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 99,
+      "statement": "#player# verteile so viele Schlücke wie du Sexstellungen kennst. Sind es unter 3 trinke selber 3.",
+      "category_drink": "2",
+      "category_activity": "0",
+      "category_game": "2",
+      "category_sex": "1",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 100,
+      "statement": "Teamwork! 30 Schlücke. Der Reihe nach muss jeder eine beliebige Zahl trinken (0-10). Sind nach einer Runde noch welche übrig darf jeder beliebig verteilen. #player# beginnt!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 101,
+      "statement": "Teamwork! 10 Shots. Der Reihe nach trinkt jeder einen oder keinen. Sind nach einer Runde noch welche übrig darf jeder einen verteilen. #player# beginnt!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 102,
+      "statement": "#player# und #player#: Gebt euch einen High-Five!",
+      "category_drink": "1",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 103,
+      "statement": "Wenn der Scheiße war trinkt ihr 2.",
+      "category_drink": "1",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": true
+    },
+    {
+      "id": 104,
+      "statement": "Wenn ihr dabei High wart trinkt ihr nochmal 2!",
+      "category_drink": "1",
+      "category_activity": "3",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 105,
+      "statement": "#player# VS #player#: Sagt abwechselnd Hallo in verschiedenen Sprachen. Wer einen Fehler macht trinkt 2 Schlücke!",
+      "category_drink": "1",
+      "category_activity": "0",
+      "category_game": "3",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 106,
+      "statement": "Uwe: #player# macht eine Mische. Reihum trinkt jeder einen Schluck, sodass der #playerDrunk# den letzten Schluck trinken muss.",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "1",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 107,
+      "statement": "Du heißt ab jetzt Uwe. Jeder, der dich anders nennt muss 1 Schluck trinken.",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "1",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 108,
+      "statement": "Russisch Roulette: #playerSober# macht jedem einen Shot, aber nur einer ist mit Alkohol. Reihum darf jeder einmal mit einem anderen Spieler tauschen. #player# beginnt.",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "1",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": false
+    },
+    {
+      "id": 109,
+      "statement": "#playerDrunk#: stell dein Glas unter die #Shotmachine# und drücke Next!",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 110,
+      "statement": "Dein Glas wird nun befüllt.",
+      "category_drink": "3",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    },
+    {
+      "id": 111,
+      "statement": "#playerDrunk#: Ex dein Glas und stell es in die #Shotmachine#! Sie wird deine Nächste Mische bestimmen!",
+      "category_drink": "0",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": true,
+      "isFollowup": false
+    },
+    {
+      "id": 112,
+      "statement": "Dein Glas wird nun mit ",
+      "category_drink": "0",
+      "category_activity": "0",
+      "category_game": "0",
+      "category_sex": "0",
+      "hasFollowup": false,
+      "isFollowup": true
+    }
+  ]
+}

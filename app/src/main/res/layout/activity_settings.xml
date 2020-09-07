@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5F4B8B"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/text_settings"
+        android:layout_width="2300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/header_border"
+        android:fontFamily="@font/font"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/text_settings">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/seekBar_konsum"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:max="4"
+                android:progress="@color/seekbarColor2"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/custom_thumb" />
+
+            <TextView
+                android:id="@+id/text_konsum"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/font"
+                android:text="Konsum"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/seekBar_spiel"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:max="4"
+                android:progress="@color/seekbarColor2"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/custom_thumb" />
+
+            <TextView
+                android:id="@+id/text_spiel"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/font"
+                android:text="Spiel"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/seekBar_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:max="4"
+                android:progress="@color/seekbarColor2"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/custom_thumb" />
+
+            <TextView
+                android:id="@+id/text_sex"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/font"
+                android:text="Erotik"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/seekBar_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:max="4"
+                android:progress="@color/seekbarColor2"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/custom_thumb" />
+
+            <TextView
+                android:id="@+id/text_acitvity"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/font"
+                android:text="Aktivität"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_start_settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:background="#C0C861"
+        android:fontFamily="@font/font"
+        android:text="start"
+        android:textColor="#fff"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <Switch
+        android:id="@+id/switch_shotmachine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shotmaschine?     "
+        android:textColor="#fff"
+        android:fontFamily="@font/font"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_start_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        android:visibility="invisible"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5F4B8B"
+    android:orientation="vertical"
+    tools:context=".GroupActivity">
+
+    <TextView
+        android:id="@+id/text_spieler"
+        android:layout_width="2300dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/header_border"
+        android:fontFamily="@font/font"
+        android:text="Spieler"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutGroup"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/playerList"
+        app:layout_constraintTop_toBottomOf="@+id/text_spieler">
+
+        <Button
+            android:id="@+id/button_minus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/spieler_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="0 Spieler"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:layout_marginHorizontal="30sp"/>
+
+        <Button
+            android:id="@+id/button_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="45sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/playerList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/header_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="start"
+        android:fontFamily="@font/font"
+        android:textSize="45sp"
+        android:textColor="#fff"
+        android:background="#C0C861"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

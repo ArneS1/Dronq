@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5F4B8B"
+    tools:context=".NewPlayerActivity">
+
+    <TextView
+        android:id="@+id/newPlayer_header"
+        android:layout_width="2300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/header_border"
+        android:fontFamily="@font/font"
+        android:text="neuer Spieler"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/header_border"
+        android:hint="Enter Name..."
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        app:layout_constraintTop_toBottomOf="@+id/newPlayer_header" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        tools:layout_editor_absoluteX="98dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            app:srcCompat="@drawable/female" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            app:srcCompat="@drawable/male" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_safety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="-10dp">
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/font"
+            android:text=" Beziehungsschutz"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonDrink"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_border"
+        android:fontFamily="@font/font"
+        android:text="Drink"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout_DelAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_safety" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_DelAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#CBAC63"
+            android:fontFamily="@font/font"
+            android:text="Delete"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#C0C861"
+            android:fontFamily="@font/font"
+            android:text="Add"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

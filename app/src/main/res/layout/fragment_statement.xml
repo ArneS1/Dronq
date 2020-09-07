@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5F4B8B">
+
+    <TextView
+        android:id="@+id/statement_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/header_border"
+        android:text="Drücke auf NEXT um das Spiel zu beginnen!"
+        android:fontFamily="Arial"
+        android:textSize="35dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:gravity="center_vertical|right"/>
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="409dp"
+        android:layout_height="126dp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+</LinearLayout>
